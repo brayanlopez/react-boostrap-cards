@@ -4,7 +4,9 @@
   "private": true,
   "dependencies": {
     "@popperjs/core": "^2.9.2",
+    "animate.css": "^4.1.1",
     "bootstrap": "^5.0.1",
+    "prop-types": "^15.7.2",
     "react": "^17.0.0",
     "react-dom": "^17.0.0"
   },
@@ -16,5 +18,17 @@
   },
   "devDependencies": {
     "react-scripts": "latest"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

@@ -1,0 +1,23 @@
+.img {
+  height: 10rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card .card-img-top:hover {
+  transform: scale(1.8);
+  transition: all 0.2s ease-in-out;
+}
+
+.card .overflow {
+  overflow: hidden;
+}
+
+.card:hover {
+  box-shadow: 1px 10px 20px 1px rgba(255, 255, 255, 0.3);
+  transition: all 0.7s linear;
+}
+
+.card-body {
+  padding: 2rem 0;
+}
